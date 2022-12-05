@@ -16,3 +16,124 @@ body {
   width: 100%;
   padding: 0 15px;
 }
+
+.header__nav {
+  background: #322E41;
+}
+
+.header__navbar-list {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.header__navbar-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 23px 15px;
+  display: block;
+  border-bottom: 2px solid white;
+  border-color: transparent;
+}
+
+.header__navbar-link:hover {
+  color: #FFE600;
+  border-color: white;
+}
+
+.header__navbar-img {
+  background: url(../images/background\ header.png)center/cover no-repeat;
+  height: 565px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+.header__navbar-title {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+  margin-bottom: 15px;
+}
+
+.header__navbar-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.header__shop {
+  background: #EBEBEB;
+  padding: 20px 0 76px;
+}
+
+.header__shop1{
+  display: flex;
+  align-items: center;
+  margin: 0 auto 43px;
+  text-transform: uppercase;  
+  border: 1px solid black;
+  border-radius: 4px;
+  column-gap: 15px;
+  width: fit-content;
+  
+}
+.header__shop1 span {
+  background: #9A98EA;
+  color: white;
+  border-radius: 4px;
+  padding: 7px 10px;
+}
+.header__shop-view  {
+  display: flex;
+  column-gap: 60px;
+}
+
+.header__shop-view1 {
+  max-width: 350px;
+  width: 100%;
+  height: 514px;
+  border: 1px solid #D7D6DC;
+  background: white;
+  padding: 15px 14px;
+}
+.header__shop-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: #2C2A2A;
+  margin: 10px 0;
+}
+.header__shop-text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #9B9B9B;
+  text-align: justify;
+}
+.header__view-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:black;
+  background: #DFC900;
+  text-align: center;
+ margin-top: 10px;
+  border: none;
+  outline: none;
+  padding: 10px 134px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  cursor: pointer;
+}
+.header__view-btn:hover {
+  background: black;
+  color: #DFC900;
+  transition: 0.3s;
+}
